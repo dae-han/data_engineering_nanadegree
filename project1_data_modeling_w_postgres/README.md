@@ -1,7 +1,3 @@
-1. Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goals.
-2. State and justify your database schema design and ETL pipeline.
-3. [Optional] Provide example queries and results for song play analysis.
-
 # [Sparkify] Postgres Database and ETL pipeline For Song Play Analysis
 
 ## Problem
@@ -74,7 +70,7 @@ On why to use a relational database for this case:
         - start_time, hour, day, week, month, year, weekday
 
 ## ETL Pipeline
-The ETL pipeline can be executed by running `etl.py`. `etl.py` does the following.
+The ETL pipeline can be executed by running `etl.py`, which does the following.
 
 1. Connect to Sparkify database
 
